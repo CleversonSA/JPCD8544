@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>JPCD8544</groupId>
+  <artifactId>JPCD8544</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>jPCD8544</name>
+  <description>Java port of PCD8544 Display LCD</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source/>
+          <target/>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+   	<dependency>
+		<groupId>com.pi4j</groupId>
+		<artifactId>pi4j-core</artifactId>	
+		<version>0.0.5</version>
+	</dependency>
+  </dependencies>
+  
+</project>
