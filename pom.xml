@@ -16,6 +16,20 @@
           <target/>
         </configuration>
       </plugin>
+	<plugin>
+		<artifactId>maven-assembly-plugin</artifactId>
+		<configuration>
+			<descriptorRefs>
+				<descriptorRef>jar-with-dependencies</descriptorRef>
+			</descriptorRefs>
+			<archive>
+				<manifest>
+					<mainClass>com.jpcd8544.JPCD8544</mainClass>
+				</manifest>
+			</archive>
+		</configuration>
+	</plugin>
+      
     </plugins>
   </build>
   <dependencies>
@@ -25,19 +39,4 @@
 		<version>0.0.5</version>
 	</dependency>
   </dependencies>
-  <plugins>
-    <plugin>
-      <artifactId>maven-assembly-plugin</artifactId>
-      <configuration>
-        <descriptorRefs>
-          <descriptorRef>jar-with-dependencies</descriptorRef>
-        </descriptorRefs>
-        <archive>
-          <manifest>
-            <mainClass>com.jpcd8544.JPCD8544</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-    </plugin>
-  </plugins>
 </project>
